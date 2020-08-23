@@ -19,7 +19,16 @@ app.post("/api/notes", function (req, res) {
     newNotes.forEach(function (item, i) {
         item.id=i+1;
     });
+    fs.writeFile("./db/db.json", JSON.stringify(newNotes));
+});
 app.delete("/api/notes/:id", function (req, res){
     newNotes.splice(newNotes.findIndex((i) => i.id == req.params.id), 1);
-})
-})
+    fs.writeFile("./db/db.json", JSON.stringify(newNotes), function (error){
+        if (error) throw error;
+    });
+    res.json(newNotes);
+});
+app.listen(PORT, function () {
+    console.log("App listening on PORT: "+PORT);
+});
+
