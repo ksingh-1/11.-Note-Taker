@@ -4,26 +4,14 @@
   "description": "Note Taker App Using Express Backend Save and Get JSON File.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ksingh-1/11.-Note-Taker.git"
   },
-  "keywords": [
-    "Note",
-    "Taker",
-    "JSON",
-    "Express",
-    "Node."
-  ],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ksingh-1/11.-Note-Taker/issues"
   },
@@ -32,6 +20,5 @@
     "express": "^4.17.1",
     "file-system": "^2.2.2",
     "path": "^0.12.7"
-
   }
 }
