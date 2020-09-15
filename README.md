@@ -12,7 +12,7 @@
 
 ## Title
 10. Team Profile Generator
-![Screenshot](https://github.com/ksingh-1)
+![Screenshot](https://github.com/ksingh-1/11.-Note-Taker/blob/master/Develop/public/assets/NoteTakerMainPage.PNG)
 
 ## Description
 This application will allow users to create, save, delete messages from their local storage!
@@ -63,4 +63,4 @@ kulpreet.s18@gmail.com
 If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1)
 or reach me directly at <kulpreet.s18@gmail.com>.
 
-![final-screen](https://github.com/ksingh-1/)
+![final-screen](https://github.com/ksingh-1/11.-Note-Taker/blob/master/Develop/public/assets/NoteTakerUse.PNG)
