@@ -4,7 +4,7 @@ const path = require("path");
 
 const app = express();
 //Port Number 
-const port = 3000;
+var port = process.env.PORT || 3000;
 //Link To Main Directory
 const mainDir = path.join(__dirname, "./Develop/public");
 
