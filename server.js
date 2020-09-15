@@ -66,5 +66,5 @@ app.delete("/api/notes/:id", function (req, res) {
 })
 
 app.listen(port, function () {
-    console.log(`Now listening to port ${port}. The Scratchpad is ready to be utilized!`);
+    console.log(`Now listening to port ${port}. Note Taker App Ready To Be Used!`);
 })
