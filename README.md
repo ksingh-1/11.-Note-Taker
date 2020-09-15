@@ -11,7 +11,7 @@
 </p>
 
 ## Title
-10. Team Profile Generator
+11. Note Taker Application - Deployed Heroku: https://lit-bastion-38303.herokuapp.com/
 ![Screenshot](https://github.com/ksingh-1/11.-Note-Taker/blob/master/Develop/public/assets/NoteTakerMainPage.PNG)
 
 ## Description
